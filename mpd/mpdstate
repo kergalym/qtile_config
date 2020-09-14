@@ -1,0 +1,108 @@
+sw_volume: 86
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: play
+current: 5
+time: 4.075000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:the_witcher_music_inspired_by_the_game_flac/01-Tales of the Witcher.flac
+1:the_witcher_3_wild_hunt_-_official_soundtrack_flac/01 The Trail.flac
+2:the_witcher_3_wild_hunt_-_official_soundtrack_flac/02 Geralt of Rivia.flac
+3:the_witcher_3_wild_hunt_-_official_soundtrack_flac/03 Eredin, King of the Hunt.flac
+4:the_witcher_3_wild_hunt_-_official_soundtrack_flac/04 Wake Up, Ciri.flac
+5:the_witcher_3_wild_hunt_-_official_soundtrack_flac/05 Aen Seidhe.flac
+6:the_witcher_3_wild_hunt_-_official_soundtrack_flac/06 Commanding the Fury.flac
+7:the_witcher_3_wild_hunt_-_official_soundtrack_flac/07 Emhyr var Emreis.flac
+8:the_witcher_3_wild_hunt_-_official_soundtrack_flac/08 Spikeroog.flac
+9:the_witcher_3_wild_hunt_-_official_soundtrack_flac/09 King Bran's Final Voyage.flac
+10:the_witcher_3_wild_hunt_-_official_soundtrack_flac/10 Silver for Monsters....flac
+11:the_witcher_3_wild_hunt_-_official_soundtrack_flac/11 Whispers of Oxenfurt.flac
+12:the_witcher_3_wild_hunt_-_official_soundtrack_flac/12 The Nightingale.flac
+13:the_witcher_3_wild_hunt_-_official_soundtrack_flac/13 City of Intrigues.flac
+14:the_witcher_3_wild_hunt_-_official_soundtrack_flac/14 The Hunter's Path.flac
+15:the_witcher_3_wild_hunt_-_official_soundtrack_flac/15 Widow-maker.flac
+16:the_witcher_3_wild_hunt_-_official_soundtrack_flac/16 Kaer Morhen.flac
+17:the_witcher_3_wild_hunt_-_official_soundtrack_flac/17 Eyes of the Wolf.flac
+18:the_witcher_3_wild_hunt_-_official_soundtrack_flac/18 Witch Hunters.flac
+19:the_witcher_3_wild_hunt_-_official_soundtrack_flac/19 ...Steel for Humans.flac
+20:the_witcher_3_wild_hunt_-_official_soundtrack_flac/20 Fate Calls.flac
+21:the_witcher_3_wild_hunt_-_official_soundtrack_flac/21 The Vagabond.flac
+22:the_witcher_3_wild_hunt_-_official_soundtrack_flac/22 Cloak and Dagger.flac
+23:the_witcher_3_wild_hunt_-_official_soundtrack_flac/23 Forged in Fire.flac
+24:the_witcher_3_wild_hunt_-_official_soundtrack_flac/24 Yes, I Do....flac
+25:the_witcher_3_wild_hunt_-_official_soundtrack_flac/25 Welcome, Imlerith.flac
+26:the_witcher_3_wild_hunt_-_official_soundtrack_flac/26 Drink Up, There’s More!.flac
+27:the_witcher_3_wild_hunt_-_official_soundtrack_flac/27 After the Storm.flac
+28:the_witcher_3_wild_hunt_-_official_soundtrack_flac/28 Blood on the Cobblestones.flac
+29:the_witcher_3_wild_hunt_-_official_soundtrack_flac/29 Farewell, Old Friend.flac
+30:the_witcher_3_wild_hunt_-_official_soundtrack_flac/30 The Song of the Sword–Dancer.flac
+31:the_witcher_3_wild_hunt_-_official_soundtrack_flac/31 The Hunt is Coming.flac
+32:the_witcher_3_wild_hunt_-_official_soundtrack_flac/32 The Fields of Ard Skellig.flac
+33:the_witcher_3_wild_hunt_-_official_soundtrack_flac/33 Ladies of the Woods.flac
+34:the_witcher_3_wild_hunt_-_official_soundtrack_flac/34 Merchants of Novigrad.flac
+35:the_witcher_3_wild_hunt_-_official_soundtrack_flac/35 Hunt or Be Hunted.flac
+36:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Eon - The Wolven Storm (Hip Hop Remix).mp3
+37:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Eon -- Dancing with Monsters.mp3
+38:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/OST The Witcher 3 - Silver for Monsters.flac
+39:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3 - Bard Song - Tavern Song - The Wolven Storm (Full Lyrics).flac
+40:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3 - Tavern Music (Extended).flac
+41:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3 OST - The Bloody Baron's Family.flac
+42:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3 Skellige Isle Ambient Music 1.flac
+43:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3 Skellige Isle Ambient Music 2.flac
+44:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3 Soundtrack_ The Sunstone Aen Seidhe.flac
+45:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3 Wild Hunt - Killing Monsters Soundtrack.flac
+46:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - 'The Last Wish' Djinn Combat Extended - Unofficial Soundtrack.flac
+47:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - 'Whispers of Oxenfurt' Instrumental Extended - Unofficial Soundtrack.flac
+48:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - 'Words on Wind' Skellige Nature Theme 2 Extended - Unofficial Soundtrack.flac
+49:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Crow's Perch Theme - Unofficial Soundtrack.flac
+50:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Freya's Garden Theme Extended - Unofficial Soundtrack.flac
+51:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Fyke Isle Theme Extended - Unofficial Soundtrack.flac
+52:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Geralt Investigation Ambience Extended - - Unofficial Soundtrack.flac
+53:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Lullaby of Woe (special single).flac
+54:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Monster's Lair Ambience Extended - Unofficial Soundtrack.flac
+55:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Novigrad City Theme 1 Extended - Unofficial Soundtrack.flac
+56:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Novigrad City Theme 2 Extended - Unofficial Soundtrack.flac
+57:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Roche's Hideout Theme Extended - Unofficial soundtrack.flac
+58:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Sad Ambience_Slums Extended - Unofficial Soundtrack.flac
+59:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Sewers Ambience Theme Extended - Unofficial Soundtrack.flac
+60:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Sewers_Bathhouse Combat Theme Extended - Unofficial Soundtrack.flac
+61:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Skellige Nature Theme 1 Extended - Unofficial Soundtrack.flac
+62:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Triss_ 'Now or Never' Theme Extended - Unofficial Soundtrack.flac
+63:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Velen Nature Theme Extended - Unofficial Soundtrack.flac
+64:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Whoreson Theme Extended - Unofficial Soundtrack.flac
+65:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Yennefer 'The Last Wish' Romance Theme Extended - Unofficial Soundtrack.flac
+66:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Yennefer 'The Last Wish' Theme Extended - Unofficial Soundtrack.flac
+67:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt Soundtrack - Back on the Path (Gwent _ Tavern).flac
+68:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3 _ Wild Hunt OST - Unreleased Bloody Baron Theme (Extended).flac
+69:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - A Magic Cave [Extended].flac
+70:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - A Magic Cave.flac
+71:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Ard Skellig Village.flac
+72:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Forefather's Eve.flac
+73:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - King of Beggars' Hideout.flac
+74:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Midnight at Mubrydale.flac
+75:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Novigrad Dreaming.flac
+76:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Outskirts of Novigrad (Midnight).flac
+77:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Outskirts of Novigrad.flac
+78:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Oxenfurt.flac
+79:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Ploughing.flac
+80:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Skellige Battle 1.flac
+81:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Skellige Battle 2.flac
+82:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Skellige Battle 3.flac
+83:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Tedd Deireadh_ the Final Age.flac
+84:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - The Fields of Ard Skellig (Midnight).flac
+85:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - The Orphans of Crookback Bog.flac
+86:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - The Slums of Novigrad.flac
+87:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Trashing Avallac'h's Lab.flac
+88:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Tretogor Gate (Midnight).flac
+89:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Versus Caranthir.flac
+90:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Versus Djinn.flac
+91:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Versus Eredin.flac
+92:The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Versus Shrieker.flac
+playlist_end
