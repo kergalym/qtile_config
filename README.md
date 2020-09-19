@@ -26,7 +26,7 @@
 * Blender (Doing my game assets)
 * Panda3D (Making my game using this awesomely small game engine)
 
-##Requirements:
+## Requirements:
 
 * Python 3.x
 * dev-python/psutil
