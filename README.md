@@ -7,7 +7,7 @@
 2020:
 <img src="https://i.imgur.com/8we65zg.jpg"/>
 <img src="https://i.imgur.com/nKXFozx.jpg"/>
-<img src="https://i.imgur.com/EjWoedK.jpg"/>
+<img src="https://i.imgur.com/sv1PgtN.png"/>
 
 ## My Daily Apps & Frameworks:
 * Qtile WM (Sitting inside IT!)
