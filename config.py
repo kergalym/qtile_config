@@ -5,9 +5,10 @@ import os
 import subprocess
 from libqtile.config import Key, Screen, Drag, Click
 from libqtile.config import Group, Match
-from libqtile.command import lazy
+from libqtile.lazy import lazy
 from libqtile import layout, bar, widget
 from libqtile import hook
+import re
 from re import sub
 
 ######################################################
@@ -38,6 +39,13 @@ keys = [
     Key([mod, "control"], "h", lazy.layout.grow_left()),
     Key([mod, "control"], "l", lazy.layout.grow_right()),
 
+    Key(
+        [mod],
+        "f",
+        lazy.window.toggle_fullscreen(),
+        desc="Toggle fullscreen on the focused window",
+    ),
+
     # Normalize windows
     Key([mod], "n", lazy.layout.normalize()),
 
@@ -53,6 +61,7 @@ keys = [
     # multiple stack panes
     Key([mod, "shift"], "Return", lazy.layout.toggle_split()),
     Key([mod], "Return", lazy.spawn("urxvt")),
+    Key([mod], "d", lazy.spawn("rofi -combi-modi window,drun,ssh -show combi -show-icons")),
 
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout()),
@@ -82,26 +91,19 @@ keys = [
 ######################################################
 
 groups = [
-    Group("DEV " + u"\u2713", matches=[Match(wm_class=["urxvt"]),
+    Group("DEV " + u"\u2713", matches=[Match(wm_class=["Code"]),
                                        Match(wm_class=["PyCharm"])]),
     Group("MEDIA " + u"\u266B", matches=[Match(wm_class=["ncmpcpp"]),
-                                         Match(wm_class=["mpv"]),
-                                         Match(wm_class=["urxvt"])]),
-    Group("GRAPHICS " + u"\U0001F58C", matches=[Match(wm_class=["feh"]),
-                                                Match(wm_class=["mupdf"]),
-                                                Match(wm_class=["GNU Image \
-                                                                Manipulation \
-                                                                Program"]),
+                                         Match(wm_class=["mpv"])]),
+    Group("GRAPHICS " + u"\U0001F58C", matches=[Match(wm_class=["Blender"]),
                                                 Match(wm_class=["Krita"])]),
-    Group("3D " + u"\U0001F4BB", matches=[Match(wm_class=["Blender"])]),
+    Group("GAMEDEV " + u"\U0001F4BB", matches=[Match(wm_class=["UE4Editor"])]),
     Group("TORRENTS " + u"\U0001F572", matches=[Match(wm_class=["rtorrent"]),
                                                 Match(wm_class=["Ktorrent"])]),
-    Group("GAMES " + u"\U0001F3AE", matches=[Match(wm_class=["wine"]), 
-                                             Match(wm_class=["Panda"])]),
-    Group("TALKING " + u"\U0001F4AC", matches=[Match(wm_class=["HexChat"]),
+    Group("GAMES " + u"\U0001F3AE", matches=[Match(wm_class=["heroic"])]),
+    Group("TALKING " + u"\U0001F4AC", matches=[Match(wm_class=["Telegram"]),
                                                Match(wm_class=["Skype"])]),
     Group("WEB " + u"\U0001F578", matches=[Match(wm_class=["Chromium"]),
-                                           Match(wm_class=["Firefox"]),
                                            Match(wm_class=["Opera"])]),
     Group("OFFICE " + u"\U0001F3E2", matches=[Match(wm_class=["LibreOffice"])]),
 ]
@@ -144,8 +146,8 @@ layouts = [
 #
 ######################################################
 widget_defaults = dict(
-    font='JetBrainsMono-Bold',
-    fontsize=16,
+    font='open sans',
+    fontsize=12,
     padding=3,
 )
 extension_defaults = widget_defaults.copy()
@@ -165,99 +167,119 @@ def get_my_gpu_temp():
                                 stdout=subprocess.PIPE).communicate()
         return "{} °C".format(sub("\D", "", str(data)))
 
+def get_my_gpu_mem():
+    if os.path.isfile("/opt/bin/nvidia-smi"):
+        data_used = subprocess.Popen(["/opt/bin/nvidia-smi",
+                                 "--query-gpu=memory.used",
+                                 "--format=csv,noheader,nounits"],
+                                stdout=subprocess.PIPE).communicate()
+        data_total = subprocess.Popen(["/opt/bin/nvidia-smi",
+                                 "--query-gpu=memory.total",
+                                 "--format=csv,noheader,nounits"],
+                                stdout=subprocess.PIPE).communicate()
+        stripped_data_used = ''
+        stripped_data_total = ''
+        for x, y in zip(data_used, data_total):
+            if x is not None:
+                stripped_data_used = x.decode("utf-8")
+            if y is not None:
+                stripped_data_total = y.decode("utf-8")
+        used = int(stripped_data_used)  # Convert to integers
+        total = int(stripped_data_total)  # Convert to integers
+        used_gb = used // 1024  # Convert MiB to GB
+        total_gb = total // 1024  # Convert MiB to GB
+        return "{0}G/{1}G".format(used_gb, total_gb)
 
 screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.GroupBox(background='#808080',
+                widget.GroupBox(background='#000000',
                                 foreground='#ffffff',
                                 active='#ffffff',
-                                this_current_screen_border="#470000",
+                                this_current_screen_border="#2d2d86",
                                 borderwidth=1,
                                 highlight_method='block',
-                                font='JetBrainsMono-Bold',
+                                font='Open Sans',
                                 fontsize=12),
-                widget.WindowName(background='#808080', foreground='#ffffff'),
+                widget.TaskList(),
                 widget.Net(background='#470000', foreground='#ffffff',
                            interface='eth0'),
-                widget.TextBox(u"\U0001F5AE", background='#808080', foreground='#ffffff',
-                               font='JetBrainsMono-Bold'),
-                widget.KeyboardKbdd(configured_keyboards=['us', 'ru'],
+                widget.TextBox(u"\U0001F5AE", foreground='#ffffff', background="#801a00",
+                               font='Open Sans'),
+                widget.KeyboardKbdd(configured_keyboards=['us', 'ru', 'kz'],
                                     update_interval=1,
-                                    background='#470000'),
-                widget.TextBox(u"\U0001F50A", background='#808080', foreground='#ffffff',
-                               font='JetBrainsMono-Bold'),
-                widget.Volume(background='#808080', foreground='#ffffff'),
+                                    background="#801a00"),
+                widget.TextBox(u"\U0001F50A", foreground='#ffffff', background="#997a00",
+                               font='Open Sans'),
+                widget.Volume(foreground='#ffffff', background="#997a00"),
 
-                widget.Systray(background='#808080', foreground='#ffffff'),
-                widget.Clock(background='#808080', foreground='#ffffff',
-                             format='%a, %d.%m.%Y, %H:%M %p'),
+                widget.Systray(foreground="#ffffff", background='#4c0080'),
+                widget.Clock(foreground='#ffffff',
+                             background="#1f7a7a",
+                             format='%A, %d.%m.%Y, %H:%M %p'),
             ],
             24,
         ),
         bottom=bar.Bar(
             [
-                widget.Prompt(background='#000000', foreground='#ffffff'),
-                widget.Spacer(background='#808080'),
+                widget.Prompt(),
+                widget.Spacer(),
 
-                widget.TextBox("ROOT SPACE:", background='#808080',
-                               foreground='#ffffff'),
-                widget.HDDGraph(background='#808080', foreground='#000000',
+                widget.TextBox("ROOT SPACE:", foreground='#ffffff', 
+                               background="#2d2d86"),
+                widget.HDDGraph(background='#2d2d86', foreground='#000000',
                                 core='all', border_color="#470000",
-                                fill_color="#470000",
+                                fill_color="#0099ff",
                                 path="/"),
-                widget.TextBox("ST3 SPACE:", background='#808080',
-                               foreground='#ffffff'),
-                widget.HDDGraph(background='#808080', foreground='#000000',
+                widget.TextBox("SSD SPACE:", foreground='#ffffff', 
+                               background="#2d2d86"),
+                widget.HDDGraph(background='#2d2d86', foreground='#000000',
                                 core='all', border_color="#470000",
-                                fill_color="#470000",
-                                path="/media/ST3"),
-                widget.TextBox("WDBL SPACE:", background='#808080', 
-                               foreground='#ffffff'),
-                widget.HDDGraph(background='#808080', foreground='#000000',
+                                fill_color="#0099ff",
+                                path="/media/FASTBIG"),
+                widget.TextBox("SSD 2 SPACE:", foreground='#ffffff', 
+                               background="#2d2d86"),
+                widget.HDDGraph(background='#2d2d86', foreground='#000000',
                                 core='all', border_color="#470000",
-                                fill_color="#470000",
-                                path="/media/WDBL"),
+                                fill_color="#0099ff",
+                                path="/media/FASTBIG2"),
+                widget.TextBox("SSD 4 SPACE:", foreground='#ffffff', background="#2d2d86"),
+                widget.HDDGraph(background='#2d2d86', foreground='#000000',
+                                core='all', border_color="#470000",
+                                fill_color="#0099ff",
+                                path="/media/FASTKING"),
 
-                widget.TextBox("i7 3770:", background='#808080', foreground='#ffffff'),
-                widget.ChThermalSensor(chip='coretemp-isa-0000',
-                                       background='#470000',
-                                       foreground='#ffffff'),
+                widget.TextBox("i5-10400F:", foreground='#ffffff', 
+                               background="#0000b3"),
+                widget.ThermalSensor(tag_sensor='Core 0',
+                                     background='#0000b3',
+                                     foreground='#ffffff'),
 
-                widget.TextBox("GTX 1050 Ti:", background='#808080', 
-                               foreground='#ffffff'),
-                widget.GenPollText(func=get_my_gpu_temp, 
-                                   update_interval=1,
-                                   background='#470000',
+                widget.TextBox("RTX 3060:", foreground='#ffffff', 
+                               background="#00802b"),
+                widget.GenPollText(func=get_my_gpu_temp, update_interval=1,
+                                   background='#00802b',
                                    foreground='#ffffff'),
-                widget.TextBox("SSD:", background='#808080', foreground='#ffffff'),
-                widget.HDThermalSensor(drive_name='/dev/sda',
-                                       background='#470000',
-                                       foreground='#ffffff'),
-                widget.TextBox("HD0:", background='#808080', foreground='#ffffff'),
-                widget.HDThermalSensor(drive_name='/dev/sdb',
-                                       background='#470000',
-                                       foreground='#ffffff'),
-                widget.TextBox("HD1:", background='#808080', foreground='#ffffff'),
-                widget.HDThermalSensor(drive_name='/dev/sdc',
-                                       background='#470000',
-                                       foreground='#ffffff'),
 
-                widget.TextBox("CPU USAGE:", background='#808080', foreground='#ffffff'),
-                widget.CPUGraph(background='#808080', foreground='#000000',
-                                core='all', border_color="#470000",
-                                fill_color="#470000"),
-                widget.TextBox("MEM USAGE:", background='#808080', foreground='#ffffff'),
-                widget.MemoryGraph(background='#808080', foreground='#000000',
-                                   type='box', border_color="#470000",
-                                   fill_color="#470000"),
-                widget.TextBox("HD IO:", background='#808080', foreground='#ffffff'),
-                widget.HDDBusyGraph(background='#808080', foreground='#000000',
-                                    fill_color="#470000"),
-                widget.TextBox("NET USAGE:", background='#808080', foreground='#ffffff'),
-                widget.NetGraph(background='#808080', foreground='#000000',
-                                fill_color="#470000"),
+                widget.TextBox("CPU USAGE:", foreground='#ffffff', 
+                               background="#801a00"),
+                widget.CPU(background='#801a00', foreground='#ffffff', 
+                           format="{load_percent}%"),
+                widget.TextBox("RAM USAGE:", foreground='#ffffff', 
+                               background="#006bb3"),
+                widget.Memory(background='#006bb3', foreground='#ffffff',
+                             measure_mem='G'),
+                widget.TextBox("VRAM USAGE:", foreground='#ffffff', 
+                               background="#4c0080"),
+                widget.GenPollText(func=get_my_gpu_mem, update_interval=1,
+                                   background='#4c0080',
+                                   foreground='#ffffff'),
+                widget.TextBox("SSD IO:", foreground='#ffffff', background="#1f7a7a"),
+                widget.HDD(background='#1f7a7a', foreground='#ffffff', 
+                           format="{HDDPercent}%"),
+                widget.TextBox("NET USAGE:", foreground='#ffffff', background="#997a00"),
+                widget.Net(background='#997a00', foreground='#ffffff'),
             ],
             24,
         ),
@@ -271,35 +293,33 @@ screens = [
 ######################################################
 # Drag floating layouts.
 mouse = [
-    Drag([mod], "Button1", lazy.window.set_position_floating(),
-         start=lazy.window.get_position()),
-    Drag([mod], "Button3", lazy.window.set_size_floating(),
-         start=lazy.window.get_size()),
-    Click([mod], "Button2", lazy.window.bring_to_front())
+   Drag([mod], "Button1", lazy.window.set_position_floating(), start=lazy.window.get_position()),
+   Drag([mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()),
+   Click([mod], "Button2", lazy.window.bring_to_front()),
 ]
-
-groups_key_binder = None
-dgroups_app_rules = []
-main = None
+    
+dgroups_key_binder = None
+dgroups_app_rules = []  # type: list
 follow_mouse_focus = True
-bring_front_click = False
+bring_front_click = True
+floats_kept_above = True
 cursor_warp = False
-floating_layout = layout.Floating(float_rules=[
-    {'wmclass': 'confirm'},
-    {'wmclass': 'dialog'},
-    {'wmclass': 'download'},
-    {'wmclass': 'error'},
-    {'wmclass': 'file_progress'},
-    {'wmclass': 'notification'},
-    {'wmclass': 'splash'},
-    {'wmclass': 'toolbar'},
-    {'wmclass': 'confirmreset'},  # gitk
-    {'wmclass': 'makebranch'},  # gitk
-    {'wmclass': 'maketag'},  # gitk
-    {'wname': 'branchdialog'},  # gitk
-    {'wname': 'pinentry'},  # GPG key password entry
-    {'wmclass': 'ssh-askpass'},  # ssh-askpass
-], border_focus='#ffd700', border_normal='#881111')
+floating_layout = layout.Floating(
+    float_rules=[
+        # Run the utility of `xprop` to see the wm class and name of an X client.
+        *layout.Floating.default_float_rules,
+        Match(wm_class="confirmreset"),  # gitk
+        Match(wm_class="makebranch"),  # gitk
+        Match(wm_class="maketag"),  # gitk
+        Match(wm_class="ssh-askpass"),  # ssh-askpass
+        Match(title="branchdialog"),  # gitk
+        Match(title="pinentry"),  # GPG key password entry
+        Match(wm_class="code"),
+        Match(wm_class="UE4Editor"),
+        Match(wm_class="heroic"),
+        Match(wm_class="PyCharm")
+    ]
+)
 
 
 ######################################################
@@ -314,6 +334,12 @@ def floating_dialogs(window):
     if dialog or transient:
         window.floating = True
 
+    if window.match(wm_class="UE4Editor"):
+        window.floating = True
+    if window.match(wm_class="Code"):
+        window.floating = True
+    if window.match(wm_class="PyCharm"):
+        window.floating = True
 
 @hook.subscribe.startup_once
 def autostart():
@@ -331,7 +357,8 @@ def autostart():
 # smart: automatically focus if the window is in the current group
 
 auto_fullscreen = True
-focus_on_window_activation = "urgent"
+focus_on_window_activation = "smart"
+reconfigure_screens = True
 
 ######################################################
 #
@@ -347,4 +374,3 @@ focus_on_window_activation = "urgent"
 # We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
 # java that happens to be on java's whitelist.
 wmname = "LG3D"
-# wmname = "QTile"

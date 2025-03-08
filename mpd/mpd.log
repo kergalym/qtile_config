@@ -1151,3 +1151,223 @@ Sep 20 00:19 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_fla
 Sep 20 00:22 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/11 Whispers of Oxenfurt.flac"
 Sep 20 00:24 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/12 The Nightingale.flac"
 Sep 20 00:26 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/13 City of Intrigues.flac"
+Mar 06 18:24 : exception: Failed to access /media/ST3/MEDIA/MuZ: No such file or directory
+Mar 06 18:24 : config: option 'device' on line 13 was not recognized
+Mar 06 19:55 : config: option 'device' on line 13 was not recognized
+Mar 07 16:47 : exception: Failed to access /media/ST3/MEDIA/MuZ: No such file or directory
+Mar 07 16:48 : exception: Bad song index
+Mar 07 16:48 : exception: Bad song index
+Mar 07 16:48 : exception: No such song
+Mar 07 16:48 : exception: Failed to access /media/ST3/MEDIA/MuZ: No such file or directory
+Mar 07 16:49 : exception: No such song
+Mar 07 16:49 : exception: No such song
+Mar 07 16:50 : exception: Bad song index
+Mar 07 16:50 : exception: No such song
+Mar 07 16:51 : config: option 'device' on line 13 was not recognized
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/01 - Marcin Przybylowicz - V.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/02 - Paul Leonard-Morgan - Extraction Action.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/03 - P.T. Adamczyk - The Rebel Path.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/04 - Paul Leonard-Morgan - The Streets Are Long-Ass Gutters.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/05 - P.T. Adamczyk - Outsider No More.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/06 - Marcin Przybylowicz - Cloudy Day.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/07 - Marcin Przybylowicz - Wushu Dolls.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/08 - P.T. Adamczyk - Scavenger Hunt.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/09 - P.T. Adamczyk - Мусорщики.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/10 - Marcin Przybylowicz - Close Probing.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/11 - Paul Leonard-Morgan - There_s Gonna Be A Parade!.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/12 - Paul Leonard-Morgan - Trouble Finds Trouble.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/13 - P.T. Adamczyk - You Shall Never Have To Forgive Me Again.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/14 - P.T. Adamczyk - Code Red Initiated.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/15 - P.T. Adamczyk - The Heist.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/16 - Marcin Przybylowicz - Streetfighters.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/17 - Marcin Przybylowicz - Patri(di)ots.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/18 - Paul Leonard-Morgan - Mining Minds.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd1/19 - P.T. Adamczyk - Rite Of Passage.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/01 - P.T. Adamczyk - The Voice In My Head.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/02 - Marcin Przybylowicz - Modern Anthill.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/03 - Paul Leonard-Morgan - The Sacred And The Profane.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/04 - P.T. Adamczyk - Kang Tao Down.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/05 - Marcin Przybylowicz - Cyberwildlife Park.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/06 - Marcin Przybylowicz - Consumer Cathedral.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/07 - P.T. Adamczyk - Juiced Up.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/08 - Paul Leonard-Morgan - Bells Of Laguna Bend.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/09 - Marcin Przybylowicz - Urban Downunder.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/10 - P.T. Adamczyk - Atlantis.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/11 - Marcin Przybylowicz - Cyberninja.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/12 - Paul Leonard-Morgan - The Suits Are Scared.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/13 - Paul Leonard-Morgan - Tower Lockdown.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/14 - P.T. Adamczyk - To Hell and Back.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/15 - Paul Leonard-Morgan - Adam Smasher.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/16 - Paul Leonard-Morgan - Hanako _ Yorinobu.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/17 - Marcin Przybylowicz - Been Good To Know Ya.flac
+Mar 07 16:51 : update: added cyberpunk_2077_ost_flac.zip/flac/cd2/18 - P.T. Adamczyk - Never Fade Away (SAMURAI Cover) - feat. Olga Jankowska.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - 'Whispers of Oxenfurt' Instrumental Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - 'Words on Wind' Skellige Nature Theme 2 Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Sad Ambience_Slums Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3 - Bard Song - Tavern Song - The Wolven Storm (Full Lyrics).flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3 Wild Hunt - Killing Monsters Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt Soundtrack - Back on the Path (Gwent _ Tavern).flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Yennefer 'The Last Wish' Theme Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Yennefer 'The Last Wish' Romance Theme Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Roche's Hideout Theme Extended - Unofficial soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Triss_ 'Now or Never' Theme Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Sewers_Bathhouse Combat Theme Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Monster's Lair Ambience Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - 'The Last Wish' Djinn Combat Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/OST The Witcher 3 - Silver for Monsters.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Freya's Garden Theme Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3 Skellige Isle Ambient Music 1.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3 Soundtrack_ The Sunstone Aen Seidhe.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Novigrad City Theme 2 Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3 Skellige Isle Ambient Music 2.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Whoreson Theme Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Velen Nature Theme Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Skellige Nature Theme 1 Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Crow's Perch Theme - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Sewers Ambience Theme Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3 - Tavern Music (Extended).flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3 OST - The Bloody Baron's Family.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Lullaby of Woe (special single).flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Geralt Investigation Ambience Extended - - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Fyke Isle Theme Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt (Unofficial Tracks)/The Witcher 3_ Wild Hunt - Novigrad City Theme 1 Extended - Unofficial Soundtrack.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Versus Shrieker.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Versus Djinn.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Versus Caranthir.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3 _ Wild Hunt OST - Unreleased Bloody Baron Theme (Extended).flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Tedd Deireadh_ the Final Age.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - King of Beggars' Hideout.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - The Slums of Novigrad.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Skellige Battle 1.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Novigrad Dreaming.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Ploughing.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Tretogor Gate (Midnight).flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Outskirts of Novigrad (Midnight).flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Outskirts of Novigrad.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Midnight at Mubrydale.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - A Magic Cave [Extended].flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Versus Eredin.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Trashing Avallac'h's Lab.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Oxenfurt.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - The Fields of Ard Skellig (Midnight).flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Ard Skellig Village.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - The Orphans of Crookback Bog.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Skellige Battle 3.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Forefather's Eve.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - A Magic Cave.flac
+Mar 07 16:51 : update: added The Witcher 3 Wild Hunt OST (Unreleased + Unofficial)/Witcher 3 Wild Hunt OST (Unreleased Tracks)/The Witcher 3_ Wild Hunt OST (Unreleased Tracks) - Skellige Battle 2.flac
+Mar 07 16:51 : update: added /0-0-The Witcher (Game Rip) - The Witcher Theme.mp3
+Mar 07 16:51 : update: added /Eon - The Wolven Storm (Hip Hop Remix).mp3
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/09 - Marcin Przybylowicz - Urban Downunder.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/13 - Paul Leonard-Morgan - Tower Lockdown.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/08 - Paul Leonard-Morgan - Bells Of Laguna Bend.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/05 - Marcin Przybylowicz - Cyberwildlife Park.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/06 - Marcin Przybylowicz - Consumer Cathedral.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/03 - Paul Leonard-Morgan - The Sacred And The Profane.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/07 - P.T. Adamczyk - Juiced Up.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/16 - Paul Leonard-Morgan - Hanako _ Yorinobu.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/15 - Paul Leonard-Morgan - Adam Smasher.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/11 - Marcin Przybylowicz - Cyberninja.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/14 - P.T. Adamczyk - To Hell and Back.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/17 - Marcin Przybylowicz - Been Good To Know Ya.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/10 - P.T. Adamczyk - Atlantis.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/04 - P.T. Adamczyk - Kang Tao Down.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/01 - P.T. Adamczyk - The Voice In My Head.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/12 - Paul Leonard-Morgan - The Suits Are Scared.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/02 - Marcin Przybylowicz - Modern Anthill.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd2/18 - P.T. Adamczyk - Never Fade Away (SAMURAI Cover) - feat. Olga Jankowska.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/05 - P.T. Adamczyk - Outsider No More.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/08 - P.T. Adamczyk - Scavenger Hunt.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/04 - Paul Leonard-Morgan - The Streets Are Long-Ass Gutters.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/06 - Marcin Przybylowicz - Cloudy Day.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/07 - Marcin Przybylowicz - Wushu Dolls.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/03 - P.T. Adamczyk - The Rebel Path.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/17 - Marcin Przybylowicz - Patri(di)ots.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/15 - P.T. Adamczyk - The Heist.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/16 - Marcin Przybylowicz - Streetfighters.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/09 - P.T. Adamczyk - Мусорщики.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/02 - Paul Leonard-Morgan - Extraction Action.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/10 - Marcin Przybylowicz - Close Probing.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/12 - Paul Leonard-Morgan - Trouble Finds Trouble.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/01 - Marcin Przybylowicz - V.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/19 - P.T. Adamczyk - Rite Of Passage.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/11 - Paul Leonard-Morgan - There_s Gonna Be A Parade!.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/18 - Paul Leonard-Morgan - Mining Minds.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/13 - P.T. Adamczyk - You Shall Never Have To Forgive Me Again.flac
+Mar 07 16:51 : update: added Cybepunk 2077 flac tracks/cd1/14 - P.T. Adamczyk - Code Red Initiated.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/09 King Bran's Final Voyage.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/35 Hunt or Be Hunted.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/17 Eyes of the Wolf.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/11 Whispers of Oxenfurt.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/10 Silver for Monsters....flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/14 The Hunter's Path.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/25 Welcome, Imlerith.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/31 The Hunt is Coming.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/08 Spikeroog.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/19 ...Steel for Humans.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/03 Eredin, King of the Hunt.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/26 Drink Up, There’s More!.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/18 Witch Hunters.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/02 Geralt of Rivia.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/16 Kaer Morhen.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/06 Commanding the Fury.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/21 The Vagabond.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/05 Aen Seidhe.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/34 Merchants of Novigrad.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/32 The Fields of Ard Skellig.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/29 Farewell, Old Friend.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/24 Yes, I Do....flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/28 Blood on the Cobblestones.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/07 Emhyr var Emreis.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/27 After the Storm.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/20 Fate Calls.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/15 Widow-maker.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/12 The Nightingale.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/30 The Song of the Sword–Dancer.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/22 Cloak and Dagger.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/01 The Trail.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/33 Ladies of the Woods.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/23 Forged in Fire.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/13 City of Intrigues.flac
+Mar 07 16:51 : update: added the_witcher_3_wild_hunt_-_official_soundtrack_flac/04 Wake Up, Ciri.flac
+Mar 07 16:51 : update: added /0-0-The-Witcher-OST-Main-Menu-Theme.mp3
+Mar 07 16:51 : update: added /Eon -- Dancing with Monsters.mp3
+Mar 07 16:51 : player: played "Cybepunk 2077 flac tracks/cd1/03 - P.T. Adamczyk - The Rebel Path.flac"
+Mar 07 16:53 : exception: No such song
+Mar 07 16:54 : output: Failed to play on "pulse audio" (pulse): suspended
+Mar 07 16:56 : player: played "Cybepunk 2077 flac tracks/cd1/03 - P.T. Adamczyk - The Rebel Path.flac"
+Mar 07 17:01 : player: played "Cybepunk 2077 flac tracks/cd1/03 - P.T. Adamczyk - The Rebel Path.flac"
+Mar 07 17:09 : player: played "Cybepunk 2077 flac tracks/cd1/03 - P.T. Adamczyk - The Rebel Path.flac"
+Mar 07 17:14 : player: played "Cybepunk 2077 flac tracks/cd1/03 - P.T. Adamczyk - The Rebel Path.flac"
+Mar 07 17:16 : player: played "Cybepunk 2077 flac tracks/cd1/04 - Paul Leonard-Morgan - The Streets Are Long-Ass Gutters.flac"
+Mar 07 17:35 : output: Failed to play on "pulse audio" (pulse): suspended
+Mar 07 17:40 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/01 The Trail.flac"
+Mar 07 17:42 : config: option 'device' on line 13 was not recognized
+Mar 07 17:42 : output: Failed to play on "pulse audio" (pulse): disconnected
+Mar 07 17:42 : config: option 'device' on line 13 was not recognized
+Mar 07 17:45 : output: Failed to play on "pulse audio" (pulse): suspended
+Mar 07 17:45 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/02 Geralt of Rivia.flac"
+Mar 07 17:45 : output: Failed to play on "pulse audio" (pulse): suspended
+Mar 07 17:50 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/01 The Trail.flac"
+Mar 07 17:53 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/02 Geralt of Rivia.flac"
+Mar 07 17:55 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/03 Eredin, King of the Hunt.flac"
+Mar 07 17:57 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/04 Wake Up, Ciri.flac"
+Mar 07 17:59 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/05 Aen Seidhe.flac"
+Mar 07 18:18 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/06 Commanding the Fury.flac"
+Mar 07 18:21 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/07 Emhyr var Emreis.flac"
+Mar 07 18:24 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/08 Spikeroog.flac"
+Mar 07 18:26 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/09 King Bran's Final Voyage.flac"
+Mar 07 18:28 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/10 Silver for Monsters....flac"
+Mar 07 18:31 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/11 Whispers of Oxenfurt.flac"
+Mar 07 18:33 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/12 The Nightingale.flac"
+Mar 07 18:35 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/13 City of Intrigues.flac"
+Mar 07 18:38 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/14 The Hunter's Path.flac"
+Mar 07 18:40 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/15 Widow-maker.flac"
+Mar 07 18:42 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/16 Kaer Morhen.flac"
+Mar 07 18:45 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/17 Eyes of the Wolf.flac"
+Mar 07 18:47 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/18 Witch Hunters.flac"
+Mar 07 20:00 : player: played "the_witcher_3_wild_hunt_-_official_soundtrack_flac/19 ...Steel for Humans.flac"
+Mar 07 21:00 : config: option 'device' on line 13 was not recognized
+Mar 08 15:42 : output: Failed to play on "pulse audio" (pulse): suspended
+Mar 08 15:44 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Mar 08 15:44 : exception: Failed to set mixer for 'pulse audio'; disconnected

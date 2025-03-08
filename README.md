@@ -13,18 +13,13 @@
 * Qtile WM (Sitting inside IT!)
 * MPD + NCMPCPP (Listening music)
 * MPV (Watching video)
-* Ranger (Doing file management)
+* PCManFM (Doing file management)
 * Vim + Leafpad (Writing some texts)
 * Feh (Looking at the images)
 * Mupdf (Reading pdfs)
 * Parcellite (Looking at the buffer manager to copypaste something)
 * Xarchiver (Backing up my precious data into the archives)
 * Rtorrent (Downloading restricted torrents while someone not looking at me)
-* Skype + Telegram + Hexchat + Firefox (Using this useless shit)
-* CherryTree (Making notes)
-* PyCharm (Having fun with Python code)
-* Blender (Doing my game assets)
-* Panda3D (Making my game using this awesomely small game engine)
 
 ## Requirements:
 
