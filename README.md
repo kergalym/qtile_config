@@ -10,7 +10,7 @@
 
 2025:
 <img src="https://i.imgur.com/QUYhlOX.jpeg"/>
-<img src="https://i.imgur.com/WtT6feP.jpeg"/>
+<img src="https://i.imgur.com/21nsQgp.jpeg"/>
 
 ## My Daily Apps & Frameworks:
 * Qtile WM (Sitting inside IT!)
