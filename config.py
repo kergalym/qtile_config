@@ -65,23 +65,15 @@ keys = [
 
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout()),
-    Key([mod], "w", lazy.window.kill()),
+    Key([mod, "control"], "w", lazy.window.kill()),
 
     # Qtile system keys
     Key([mod, "control"], "r", lazy.restart()),
     Key([mod, "control"], "q", lazy.shutdown()),
     Key([mod], "r", lazy.spawncmd()),
 
-    # Key([], 'Print', lazy.spawn(commands.screenshot)),
-
-    # Sound
-    Key([], "XF86AudioMute", lazy.spawn("amixer -q set Master toggle")),
-    Key([], "XF86AudioPlay", lazy.spawn("ncmpcpp play")),
-    Key([], "XF86AudioPlay", lazy.spawn("ncmpcpp pause")),
-    Key([], "XF86AudioLowerVolume", lazy.spawn(
-        "amixer -c 0 sset Master 1- unmute")),
-    Key([], "XF86AudioRaiseVolume", lazy.spawn(
-        "amixer -c 0 sset Master 1+ unmute"))
+    Key([], 'Print', lazy.spawn("scrot -d 5 '/tmp/scrot-%Y-%m-%d-%H:%M.jpg'")),
+    Key([mod], 'Print', lazy.spawn("scrot -s '/tmp/scrot-%Y-%m-%d-%H:%M.jpg'"))
 ]
 
 ######################################################
@@ -91,21 +83,15 @@ keys = [
 ######################################################
 
 groups = [
-    Group("DEV " + u"\u2713", matches=[Match(wm_class=["Code"]),
-                                       Match(wm_class=["PyCharm"])]),
-    Group("MEDIA " + u"\u266B", matches=[Match(wm_class=["ncmpcpp"]),
-                                         Match(wm_class=["mpv"])]),
-    Group("GRAPHICS " + u"\U0001F58C", matches=[Match(wm_class=["Blender"]),
-                                                Match(wm_class=["Krita"])]),
-    Group("GAMEDEV " + u"\U0001F4BB", matches=[Match(wm_class=["UE4Editor"])]),
-    Group("TORRENTS " + u"\U0001F572", matches=[Match(wm_class=["rtorrent"]),
-                                                Match(wm_class=["Ktorrent"])]),
-    Group("GAMES " + u"\U0001F3AE", matches=[Match(wm_class=["heroic"])]),
-    Group("TALKING " + u"\U0001F4AC", matches=[Match(wm_class=["Telegram"]),
-                                               Match(wm_class=["Skype"])]),
-    Group("WEB " + u"\U0001F578", matches=[Match(wm_class=["Chromium"]),
-                                           Match(wm_class=["Opera"])]),
-    Group("OFFICE " + u"\U0001F3E2", matches=[Match(wm_class=["LibreOffice"])]),
+    Group("DEV ✓", matches=[Match(wm_class=re.compile(r"^(Code|PyCharm)$"))]),
+    Group("MEDIA ♫", matches=[Match(wm_class=re.compile(r"^(ncmpcpp|mpv)$"))]),
+    Group("GRAPHICS 🖌", matches=[Match(wm_class=re.compile(r"^(Blender|Krita)$"))]),
+    Group("GAMEDEV 💻", matches=[Match(wm_class=re.compile(r"^UE4Editor$"))]),
+    Group("TORRENTS 🕲", matches=[Match(wm_class=re.compile(r"^(rtorrent|Ktorrent)$"))]),
+    Group("GAMES 🎮", matches=[Match(wm_class=re.compile(r"^heroic$"))]),
+    Group("TALKING 💬", matches=[Match(wm_class=re.compile(r"^(Telegram|Skype)$"))]),
+    Group("WEB 🕸", matches=[Match(wm_class=re.compile(r"^(Chromium|Opera)$"))]),
+    Group("OFFICE 🏢", matches=[Match(wm_class=re.compile(r"^LibreOffice$"))]),
 ]
 
 
@@ -194,15 +180,17 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.GroupBox(background='#000000',
+                widget.GroupBox(background='#2F343F',
                                 foreground='#ffffff',
                                 active='#ffffff',
+                                inactive='#1f7a7a',
                                 this_current_screen_border="#2d2d86",
                                 borderwidth=1,
                                 highlight_method='block',
                                 font='Open Sans',
-                                fontsize=12),
-                widget.TaskList(),
+                                fontsize=12, 
+                                disable_drag=True),
+                widget.TaskList(background='#2F343F'),
                 widget.Net(background='#470000', foreground='#ffffff',
                            interface='eth0'),
                 widget.TextBox(u"\U0001F5AE", foreground='#ffffff', background="#801a00",
@@ -223,8 +211,8 @@ screens = [
         ),
         bottom=bar.Bar(
             [
-                widget.Prompt(),
-                widget.Spacer(),
+                widget.Prompt(background='#2F343F'),
+                widget.Spacer(background='#2F343F'),
 
                 widget.TextBox("ROOT SPACE:", foreground='#ffffff', 
                                background="#2d2d86"),
@@ -317,7 +305,8 @@ floating_layout = layout.Floating(
         Match(wm_class="code"),
         Match(wm_class="UE4Editor"),
         Match(wm_class="heroic"),
-        Match(wm_class="PyCharm")
+        Match(wm_class="PyCharm"),
+        Match(title="Picture-in-Picture")
     ]
 )
 
@@ -334,12 +323,15 @@ def floating_dialogs(window):
     if dialog or transient:
         window.floating = True
 
-    if window.match(wm_class="UE4Editor"):
+    if Match(wm_class=re.compile(r"^(UE4Editor)$")).compare(window):
         window.floating = True
-    if window.match(wm_class="Code"):
+    if Match(wm_class=re.compile(r"^(Code)$")).compare(window):
         window.floating = True
-    if window.match(wm_class="PyCharm"):
+    if Match(wm_class=re.compile(r"^(PyCharm)$")).compare(window):
         window.floating = True
+    if Match(wm_class=re.compile(r"^(Picture-in-Picture)$")).compare(window):
+        window.floating = True
+        window.bring_to_front()
 
 @hook.subscribe.startup_once
 def autostart():

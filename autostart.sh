@@ -1,8 +1,15 @@
 #!/bin/bash
-feh --bg-scale /media/FASTBIG2/qtile_config/walls/korlan_poster.png
+#feh --bg-scale /home/galym/KorlanScreenshots/Screenshot_20250206_060737.png 
+feh --bg-scale "/home/galym/KorlanScreenshots/scrot-2025-04-01-18:16_000.jpg"
 
-parcellite &
+/home/galym/bin/Telegram/Telegram &
+~/bin/firefox/firefox-bin &
+hp-systray &
+copyq &
 kbdd &
 mpd &
-setxkbmap -layout "us,ru,kz" -option "grp:alt_shift_toggle,grp_led:scroll"
+heroic-run &
+setxkbmap -layout "us,ru" -option "grp:alt_shift_toggle,grp_led:scroll"
 xrdb ~/.config/qtile/Xresources
+# ~/bin/pycharm.sh &
+# cherrytree &
